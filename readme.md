@@ -18,16 +18,16 @@ The Mass General Brigham Hospital Management System is a modern web application 
 
 The system provides an integrated platform for hospital navigation, service request management, employee directory access, and intelligent routing using advanced pathfinding algorithms.
 
-## ✨ Key Features
+## Key Features
 
-### 🗺️ Intelligent Hospital Navigation
+### Intelligent Hospital Navigation
 - **Multi-floor indoor navigation** with real-time pathfinding using multiple algorithms (BFS, DFS, Dijkstra, A*)
 - **Interactive 3D hospital maps** with floor-by-floor navigation
 - **Google Maps integration** for external location routing
 - **Voice-guided directions** with text-to-speech capabilities
 - **Parking lot integration** with hospital-specific parking guidance
 
-### 📋 Service Request Management
+### Service Request Management
 - **Maintenance requests** for facility management
 - **Medical device service requests** for equipment maintenance
 - **Patient transport coordination** between hospital locations
@@ -35,25 +35,25 @@ The system provides an integrated platform for hospital navigation, service requ
 - **Sanitation service requests** for facility cleanliness
 - **Request tracking and assignment** to appropriate staff members
 
-### 👥 Employee & Directory Management
+### Employee & Directory Management
 - **Comprehensive employee directory** with department and building information
 - **Department search and filtering** by hospital location
 - **Employee role-based access control** with admin privileges
 - **CSV import/export functionality** for bulk data management
 
-### 🤖 AI-Powered Assistance
+### AI-Powered Assistance
 - **Natural language processing** for intelligent request classification
 - **Intent recognition** for automatic routing to appropriate services
 - **Voice command support** for hands-free operation
 - **Smart search functionality** across all hospital services
 
-### 🔐 Security & Authentication
+### Security & Authentication
 - **Auth0 integration** for secure user authentication
 - **Role-based access control** for different user types
 - **JWT token management** for secure API communication
 - **Admin dashboard** for system management
 
-## 🏗️ Architecture
+## Architecture
 
 This application follows a modern **monorepo architecture** with the following structure:
 
@@ -85,7 +85,7 @@ This application follows a modern **monorepo architecture** with the following s
 - **Database client** for consistent data access
 - **Shared utilities** across frontend and backend
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - **Node.js** (v18 or higher)
@@ -135,7 +135,7 @@ The application will be available at:
 - **Frontend**: http://localhost:5173
 - **Backend API**: http://localhost:3000
 
-## 🛠️ Development Scripts
+## Development Scripts
 
 ### Core Commands
 - `yarn dev` - Start development environment (frontend + backend)
@@ -153,7 +153,7 @@ The application will be available at:
 - `yarn docker` - Build and run Docker container locally
 - `yarn deploy` - Deploy to AWS ECR (requires AWS configuration)
 
-## 🗄️ Database Schema
+## Database Schema
 
 The application uses a comprehensive PostgreSQL schema with the following key entities:
 
@@ -171,7 +171,7 @@ The application uses a comprehensive PostgreSQL schema with the following key en
 - **Translation Requests** - Language interpretation services
 - **Sanitation Requests** - Facility cleaning and maintenance
 
-## 🔧 API Endpoints
+## API Endpoints
 
 The backend provides RESTful APIs organized into logical modules:
 
@@ -198,7 +198,7 @@ The backend provides RESTful APIs organized into logical modules:
 - `POST /api/tts` - Text-to-speech conversion
 - `GET /api/recentorigins` - Recent navigation origins
 
-## 🧪 Testing
+## Testing
 
 The application includes comprehensive testing infrastructure:
 
@@ -207,7 +207,7 @@ The application includes comprehensive testing infrastructure:
 - **Test coverage** for critical business logic
 - **Automated linting** with ESLint and Prettier
 
-## 🐳 Docker Deployment
+## Docker Deployment
 
 The application is containerized for consistent deployment:
 
@@ -219,7 +219,7 @@ yarn docker
 yarn deploy
 ```
 
-## 🔒 Security Features
+## Security Features
 
 - **Auth0 authentication** with role-based access control
 - **JWT token validation** for API security
@@ -227,7 +227,7 @@ yarn deploy
 - **CORS configuration** for secure cross-origin requests
 - **Environment-based configuration** for secure credential management
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -235,7 +235,7 @@ yarn deploy
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This application was developed by a team of software engineering students at WPI as part of a project in collaboration with Mass General Brigham.
 

@@ -237,5 +237,5 @@ yarn deploy
 
 ## 📝 License
 
-This application was developed by a team of software engineering students for CS3733 at WPI as part of a project in collaboration with Mass General Brigham.
+This application was developed by a team of software engineering students at WPI as part of a project in collaboration with Mass General Brigham.
 

@@ -2,13 +2,13 @@
 
 A comprehensive healthcare management platform designed to streamline operations across multiple Mass General Brigham hospital locations. This full-stack web application provides intelligent navigation, service request management, employee directory services, and AI-powered assistance for healthcare staff and visitors.
 
-## 📖 Manual
+## Manual
 
 For detailed user instructions and system documentation, please refer to the **[MGB App Manual.pdf](MGB%20App%20Manual.pdf)** file in the root directory.
 
 ---
 
-## 🏥 Overview
+## Overview
 
 The Mass General Brigham Hospital Management System is a modern web application that serves multiple hospital locations including:
 - **Chestnut Hill Healthcare Center**
